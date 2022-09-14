@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints out first 98
+ * suit elements
  * fibonacci suit numbers
  * Return: return 0
  */
