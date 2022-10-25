@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_listint - prints all the elements of a listint_t list.
- * @h: list to print 
+ * print_listint -  prints all the elements of a listint_t list.
+ * @h: list to print
  *
  * Return: number of elements in the list
  */
@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 		count++;
 	}
-	
 	return (count);
 }
